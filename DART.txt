@@ -1,0 +1,85 @@
+//IMPRIMIR PANTALLA Y COMENTAR
+void main() {
+  
+  //ESTE ES UN COMENTARIO
+  
+  /*ESTE ES 
+   * UN COMENTARIO
+   * MULTILINEA
+   */
+  
+    print('hello');
+  
+}
+--------------------------------------------------------
+
+//HELLO WORD WITH FOR
+void main() {
+  for (int i = 0; i < 5; i++) {
+    print('hello ${i + 1}');
+  }
+}
+
+--------------------------------------------------------
+//numericos
+void main() {
+  
+    //  STRING
+  String nombre = 'Tony' ;
+  String apellido= 'Frank' ;
+  
+  //nombre = peter;
+  
+  print( '$nombre $apellido');
+  
+  int empleado = 10;
+  double salario= 105.25;
+  
+  print(empleado);
+  print(salario);
+  
+  
+}
+---------------------------------------------------------
+BOOLEANS
+void main() {
+  
+   bool? isActive = null;
+  
+  if(isActive== null){
+    print('isActive es null');
+}else{
+    print('no es null');
+  }
+}
+--------------------------------------------------------
+LISTAS
+void main() {
+  
+List<int> numeros =[1 ,2 ,3 ,4 ,5, 6, 7, 8, 9];
+numeros.add(10);
+print(numeros);
+  
+final masNumeros = List.generate(100, (int index) => index);
+  print(masNumeros);
+  
+}
+
+-------------------------------------------------------
+PRACTICE ONE
+
+void main() {
+  
+  int horas_ext = 10;
+  int price_he=11;
+  double salario_base= 105.25;
+  int horas_extra= horas_ext * price_he;
+  
+  double prima_semanal=horas_extra+salario_base;
+  
+  print('Elempleado recibira por concepto de pago semanal la cantidad de: '  );
+  print(prima_semanal);
+  
+
+  
+}
