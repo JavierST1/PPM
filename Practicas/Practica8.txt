@@ -1,0 +1,28 @@
+void main() {
+  Map <String,dynamic>  perfil ={
+    'id' : 1,
+    'nombre' :'Miguel',
+    'salon' : 'ud1 14',
+    'carrera' : 'civil',
+    'telefono': 6182344055,
+    'string' : 'comida.png',
+    'descripción' : 'burritos al vapor',
+    'publicaciones' : 4
+  } ;
+   Map <String,dynamic>  general ={
+    'comida': 'Burritos la vapor',
+     'dulces': 'gomitas a granel',
+     'postres' : 'postres de limon y brownies',
+     'electronicos' : 'laptop y router',
+       'servicios' : 'paquetes de internet',
+     'precio': {15,5,10,7,5000,500,30},
+     'categoria': 'comida'
+     
+  } ;
+   Map <String,String>  categorias ={
+     'producto': 'Burro'
+  } ;
+  print(perfil);
+  print(general);
+  print(categorias);
+}
